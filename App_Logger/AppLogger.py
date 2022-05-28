@@ -1,7 +1,4 @@
 from datetime import datetime
-from email import message
-from imp import load_module
-from sys import modules
 
 from Modules.Modules import ModuleName
 
@@ -12,28 +9,26 @@ from Modules.Modules import ModuleName
 
 '''
 
+
 class AppLogger:
 
-    #Default Constructor 
+    # Default Constructor
     def __init__(self) -> None:
-        pass
+        self.now = ""
+        self.date = ""
+        self.time = ""
 
-    
-    def Log(self, module, message):
-
-        self.now=datetime.now()
+    def log(self, module, msg):
+        self.now = datetime.now()
         self.date = self.now.date()
-        self.time= self.now.strftime("%H:%M:%S")
-        self.__Load_Module_Log_File(module, message)
+        self.time = self.now.strftime("%H:%M:%S")
+        self.__load_module_log_file(module, msg)
 
-   
-    def __Load_Module_Log_File(self, module, message):
+    def __load_module_log_file(self, module, msg):
         match module:
             case ModuleName.General:
-                self.__Log_Data_To_Logs("./Logs/General/General_logs.txt", module, message)
-        
+                self.__log_data_to_logs("./Logs/General/General_logs.txt", module, msg)
 
-    def __Log_Data_To_Logs(self, file_path,module,message):
-       with open(file_path,"a+") as f:
-           f.write(f"{self.date} - {self.time} - Module Name : {module.name}, Message : {message}\n")
-    
+    def __log_data_to_logs(self, file_path, module, msg):
+        with open(file_path, "a+") as f:
+            f.write(f"{self.date} - {self.time} - Module Name : {module.name}, Message : {msg}\n")
