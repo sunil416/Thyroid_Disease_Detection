@@ -1,0 +1,9 @@
+# To Create a Virtual Env
+    py -3 -m venv .venv
+
+# To activate the Env
+    .venv\scripts\activate
+
+# To Run the flask Project on the dev system
+    python -m flask run
+
