@@ -7,3 +7,5 @@
 # To Run the flask Project on the dev system
     python -m flask run
 
+# add/update requirements.txt
+    pip freeze > requirements.txt
