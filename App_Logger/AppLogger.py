@@ -30,6 +30,8 @@ class AppLogger:
                 self.__log_data_to_logs("./Logs/General/General_logs.txt", module, msg)
             case ModuleName.DataBase:
                 self.__log_data_to_logs("./Logs/DataBase/DataBase_logs.txt", module, msg)
+            case ModuleName.DataCleanr:
+                self.__log_data_to_logs("./Logs/DataCleanr/DataBase_logs.txt", module, msg)
 
     def __log_data_to_logs(self, file_path, module, msg):
         with open(file_path, "a+") as f:
