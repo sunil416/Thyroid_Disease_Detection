@@ -40,11 +40,26 @@ def eda():
     data_cleaner.ReplaceQuestionMarkWithNaN()
     
     data_cleaner.ShapeofData()
-    data_cleaner.ShapeofData()
     data_cleaner.ReplaceTValues()
     data_cleaner.ReplacefValues()
     data_cleaner.ConvertSexInNumberic()
+    data_cleaner.measuredVsOriginal('TSH','TSH_Measured')
+    data_cleaner.measuredVsOriginal('T3','T3_Measured')
+    data_cleaner.measuredVsOriginal('TT4','TT4_Measured')
+    data_cleaner.measuredVsOriginal('T4U','T4U_Measured')
+    data_cleaner.measuredVsOriginal('FTI','FTI_Measured')
+    data_cleaner.measuredVsOriginal('TBG','TBG_Measured')
+
+    data_cleaner.DropRefrenceColumn("TSH_Measured")
+    data_cleaner.DropRefrenceColumn("T3_Measured")
+    data_cleaner.DropRefrenceColumn("TT4_Measured")
+    data_cleaner.DropRefrenceColumn("T4U_Measured")
+    data_cleaner.DropRefrenceColumn("FTI_Measured")
+    data_cleaner.DropRefrenceColumn("TBG_Measured")
+
     data_cleaner.CleaningTheOutPutVariable()
+    
+
     data_cleaner.ReplaceNanWithZero()
     data_cleaner.DropNanValues()
     data_cleaner.ShapeofData()

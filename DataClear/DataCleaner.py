@@ -6,6 +6,7 @@ from App_Logger.AppLogger import AppLogger
 from Modules.Modules import ModuleName
 import numpy as np
 import os
+from sklearn.impute import KNNImputer
 class DataCleaner:
 
     # __singleton_lock = threading.Lock()
@@ -54,6 +55,7 @@ class DataCleaner:
     def DropNanValues(self):
         self.Logger.log(ModuleName.DataCleanr,f"Droping the Nan Values ")
         try:
+            self.Logger.log(ModuleName.DataCleanr,f"{self.data_frame.isna().sum()}")
             self.data_frame.dropna(inplace=True)
             self.Logger.log(ModuleName.DataCleanr,f"Successfuly")
         except Exception as e:
@@ -78,14 +80,36 @@ class DataCleaner:
     def ConvertSexInNumberic(self):
         self.Logger.log(ModuleName.DataCleanr,f"Converting Sex into Numeric Column called Male ")
         try:
-            dummeis=pd.get_dummies(self.data_frame["Sex"], drop_first=True)
+            dummeis=pd.get_dummies(self.data_frame["Sex"])
             self.Logger.log(ModuleName.DataCleanr,f"Successfully created the Dummies ")
-            self.data_frame["Male"]=dummeis
-            self.Logger.log(ModuleName.DataCleanr,f"Successfully created the Dummies ")
-            self.data_frame.drop("Sex", inplace=True, axis=1)
-            self.Logger.log(ModuleName.DataCleanr,f"Successfuly able droped the colum SEX")
+            #if dummeis.shape[1]>=3:
+            for i in range(0, dummeis.shape[0]):
+                if dummeis['M'].iloc[i] ==1:
+                    self.data_frame["Sex"].iloc[i]=dummeis['M'].iloc[i]
+                elif dummeis['F'].iloc[i] ==1:
+                    self.data_frame["Sex"].iloc[i]=dummeis['M'].iloc[i]
+                else:
+                    self.data_frame["Sex"].iloc[i] =np.nan
+            if self.data_frame["Sex"].isna().sum()>0:
+
+                knnimputer=KNNImputer(n_neighbors=3)
+                self.data_frame=pd.DataFrame(knnimputer.fit_transform(self.data_frame), columns=self.data_frame.columns)
+                self.Logger.log(ModuleName.DataCleanr,f"updated the Missing values using KNN column Sex ")
+                self.data_frame["Sex"]= self.data_frame["Sex"].astype(int)
+
+            self.Logger.log(ModuleName.DataCleanr,f"updated the values of the dumies in the column Sex ")
         except Exception as e:
              self.Logger.log(ModuleName.DataCleanr,f"Error occured Converting the sex into the numeric values {e}")
+    
+    def measuredVsOriginal(self,column_name, measured_Name):
+        self.Logger.log(ModuleName.DataCleanr,f"Updateing the missing values of the measured {measured_Name} vs value {column_name}")
+        try:
+            for i in range(0, self.data_frame.shape[0]):
+                if pd.isna(self.data_frame[column_name].iloc[i]) and self.data_frame[measured_Name].iloc[i]=='f':
+                    self.data_frame[column_name].iloc[i]=0
+        except Exception as e:
+             self.Logger.log(ModuleName.DataCleanr,f"Error occured updating the missing values for column {column_name} {e}")
+
 
     def CleaningTheOutPutVariable(self):
 
