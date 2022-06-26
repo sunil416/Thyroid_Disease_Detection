@@ -5,3 +5,4 @@ class Config:
         self.password="anil"
         self.database='student'
         self.collection_student_details="student_details"
+        self.MaxAgeOfThePatient=90

@@ -9,6 +9,8 @@ from DataClear.DataCleaner import DataCleaner
 from Modules.Modules import ModuleName
 from flask_debugtoolbar import DebugToolbarExtension
 
+from PreProcesing.preprocessing import PreProcesing
+
 
 app = Flask(__name__)
 app.debug = True
@@ -66,6 +68,26 @@ def eda():
     data_cleaner.SaveTheCleanedData()
 
     return "Executed Succesffulyy"
+
+@app.route('/preprocessing')
+def preprocessing():
+    preprocess= PreProcesing()
+
+    preprocess.readCleanedDataSet()
+    preprocess.createBinaryOutput()
+    preprocess.convertOoutputtoLableEncoder()
+    preprocess.CleanAgeUpperBoundData()
+    preprocess.cleaningTheUpperBoundData("TBG", 50) #TBG values above 50 will be considered as 50
+    preprocess.cleaningTheUpperBoundData("TSH", 5)  #TSH values above 5 will be considered as 5
+    preprocess.cleaningTheUpperBoundData("T3", 5) #T3 values above 5 will be condered as 5
+    preprocess.cleaningTheUpperBoundData("TT4", 175) #TT4 above 174 will be considered as 175
+    preprocess.cleaningTheUpperBoundData("FTI", 200) # FTI above 200 will be considered as 200
+    #Dropping the TBG columsn as most of the values are 0
+    preprocess.DropRefrenceColumn("TBG")
+
+    preprocess.SaveTheCleanedData()
+
+    return "Preprocessing Done Successfully"
 
 if __name__ == "__main__":
     app.run(debug=True)
