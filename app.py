@@ -10,6 +10,7 @@ from Modules.Modules import ModuleName
 from flask_debugtoolbar import DebugToolbarExtension
 
 from PreProcesing.preprocessing import PreProcesing
+from Training.training import Training
 
 
 app = Flask(__name__)
@@ -94,6 +95,28 @@ def preprocessing():
     preprocess.SaveTheCleanedData()
 
     return "Preprocessing Done Successfully"
+
+@app.route('/train')
+def trainning():
+    training= Training()
+    training.createModelForKNN(0)
+    training.createModelForExtraTreeClassifier(0)
+    training.createModelForRandomForest(0)
+
+    training.createModelForKNN(1)
+    training.createModelForExtraTreeClassifier(1)
+    training.createModelForRandomForest(1)
+
+    training.createModelForKNN(2)
+    training.createModelForExtraTreeClassifier(2)
+    training.createModelForRandomForest(2)
+
+    training.createModelForKNN(3)
+    training.createModelForExtraTreeClassifier(3)
+    training.createModelForRandomForest(3)
+
+    return "Models Created Successfully"
+
 
 if __name__ == "__main__":
     app.run(debug=True)

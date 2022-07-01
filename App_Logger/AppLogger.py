@@ -34,6 +34,8 @@ class AppLogger:
                 self.__log_data_to_logs("./Logs/DataCleanr/Data_Cleaner.txt", module, msg)
             case ModuleName.PreProcessing:
                 self.__log_data_to_logs("./Logs/PreProcesing/PreProcessing.txt", module, msg)
+            case ModuleName.Training:
+                self.__log_data_to_logs("./Logs/Training/Training.txt", module, msg)
 
     def __log_data_to_logs(self, file_path, module, msg):
         with open(file_path, "a+") as f:
