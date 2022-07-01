@@ -85,6 +85,12 @@ def preprocessing():
     #Dropping the TBG columsn as most of the values are 0
     preprocess.DropRefrenceColumn("TBG")
 
+    # Scalling the column between 0 and 1
+    preprocess.ScaleTheData("TSH")
+    preprocess.ScaleTheData("T3")
+    preprocess.ScaleTheData("TT4")
+    preprocess.ScaleTheData("FTI")
+    preprocess.creatingTheClusters()
     preprocess.SaveTheCleanedData()
 
     return "Preprocessing Done Successfully"

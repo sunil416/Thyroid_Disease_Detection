@@ -1,11 +1,14 @@
 from pathlib import Path
 import os
+from pyexpat import model
 from select import select
 import pandas as pd
 from App_Logger.AppLogger import AppLogger
 from Configuration.config import Config
 from Modules.Modules import  ModuleName
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.cluster import KMeans
+import pickle
 
 
 
@@ -31,10 +34,13 @@ class PreProcesing:
         try:
             self.Logger.log(ModuleName.PreProcessing,f"Creating the binary output")
             self.data_frame["Output_binary"]= self.data_frame["Output"]!='-'
+            self.data_frame["Output_binary"]= self.data_frame["Output_binary"].astype(int)
             self.Logger.log(ModuleName.PreProcessing,f"Binary output created successfullly")
         except Exception as e:
              self.Logger.log(ModuleName.PreProcessing,f"Error Occured while Creating Binary Output \n {e}")
     
+   
+
     def convertOoutputtoLableEncoder(self):
         try:
             self.Logger.log(ModuleName.PreProcessing,f"Creating Lables for output Variables")
@@ -82,6 +88,39 @@ class PreProcesing:
             self.Logger.log(ModuleName.PreProcessing,f"Column Name: {column_name} Dropped Successfuly")
         except Exception as e:
              self.Logger.log(ModuleName.PreProcessing,f"Error occured while droping column {e}")
+
+    def ScaleTheData(self, column_name):
+        self.Logger.log(ModuleName.PreProcessing,f"Scaling the data between 0 and 1 for the column {column_name} ")
+        try:
+            minMaxScaler= MinMaxScaler()
+            array=self.data_frame[column_name].array
+            scaller_data=minMaxScaler.fit_transform(array.reshape(-1,1))
+            self.data_frame[column_name]=scaller_data
+            self.Logger.log(ModuleName.PreProcessing,f"Scalling completed Successfully {column_name} ")
+        except Exception as e:
+             self.Logger.log(ModuleName.PreProcessing,f"Scaling failed {e}")
+             raise 
+
+    def creatingTheClusters(self):
+
+        self.Logger.log(ModuleName.PreProcessing,f"Creating the Clusters for the data ")
+        try:
+            dataframe_Copy=self.data_frame.copy()
+            dataframe_Copy.drop(["Output","Output_binary","encoded_output"], inplace= True, axis=1)
+            kmeans=KMeans(n_clusters=4)
+            model=kmeans.fit(dataframe_Copy)
+            model_path = Path(f"{os.getcwd()}\\Models\\Clustering.pkl")
+            with model_path.open('wb') as fp:
+                pickle.dump(model, fp)
+            dataframe_Copy["Cluster"]= kmeans.fit_predict(dataframe_Copy)
+            dataframe_Copy["Output"]= self.data_frame["Output"]
+            dataframe_Copy["Output_binary"]=self.data_frame["Output_binary"]
+            dataframe_Copy["encoded_output"]=self.data_frame["encoded_output"]
+            self.data_frame= dataframe_Copy
+            self.Logger.log(ModuleName.PreProcessing,f"Success and dumped the model in the models folder ")
+        except Exception as e:
+             self.Logger.log(ModuleName.PreProcessing,f"creating cluster failed {e}")
+             raise e
 
     def SaveTheCleanedData(self):
         self.Logger.log(ModuleName.PreProcessing,f"saving the cleaned Data ")
