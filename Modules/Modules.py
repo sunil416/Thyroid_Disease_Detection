@@ -7,4 +7,5 @@ class ModuleName(Enum):
     DataBase="DataBase",
     DataCleanr="DataCleanr",
     PreProcessing="PreProcesing",
-    Training= "Training"
+    Training= "Training",
+    Predict="Prediction"

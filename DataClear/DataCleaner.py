@@ -101,6 +101,17 @@ class DataCleaner:
         except Exception as e:
              self.Logger.log(ModuleName.DataCleanr,f"Error occured Converting the sex into the numeric values {e}")
     
+    def ConvertSexInNumbericForPredication(self):
+        self.Logger.log(ModuleName.DataCleanr,f"Converting Sex into Numeric Column called Male for predection ")
+        try:
+            for i in range(0, self.data_frame.shape[0]):
+                if self.data_frame["Sex"].iloc[i]=="F":
+                    self.data_frame["Sex"].iloc[i]=0
+                elif self.data_frame["Sex"].iloc[i]=="M":
+                    self.data_frame["Sex"].iloc[i]=1
+            self.Logger.log(ModuleName.DataCleanr,f"Conversion Success the column Sex ") 
+        except Exception as e:
+             self.Logger.log(ModuleName.DataCleanr,f"Error occured Converting the sex into the numeric values for predection {e}")
     def measuredVsOriginal(self,column_name, measured_Name):
         self.Logger.log(ModuleName.DataCleanr,f"Updateing the missing values of the measured {measured_Name} vs value {column_name}")
         try:

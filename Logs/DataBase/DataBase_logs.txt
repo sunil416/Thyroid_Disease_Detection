@@ -1,0 +1,123 @@
+2022-06-02 - 23:56:34 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-02 - 23:56:43 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:14:02 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:14:11 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:14:11 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:14:11 - Module Name : DataBase, Message : Erorr Getting the collection student_details
+
+2022-06-03 - 00:19:19 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:19:27 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:19:27 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:19:27 - Module Name : DataBase, Message : Erorr Getting the collection student_details
+
+2022-06-03 - 00:20:30 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:20:38 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:20:38 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:20:38 - Module Name : DataBase, Message : Erorr Getting the collection student_details
+
+2022-06-03 - 00:25:13 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:25:22 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:25:22 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:25:22 - Module Name : DataBase, Message : Erorr Getting the collection student_details
+
+2022-06-03 - 00:25:44 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:25:52 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:25:52 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:25:52 - Module Name : DataBase, Message : Erorr Getting the collection student_details
+
+2022-06-03 - 00:26:38 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:26:46 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:26:46 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:26:46 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:31:57 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:32:05 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:32:05 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:32:05 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:32:54 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:33:02 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:33:02 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:33:02 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:33:40 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:33:49 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:33:49 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:33:49 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:36:26 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:36:34 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:36:34 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:36:34 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:41:26 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:41:34 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:41:34 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:41:34 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:42:11 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:42:19 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:42:19 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:42:19 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:43:21 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:43:29 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:43:29 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:43:29 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:51:00 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:51:08 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:51:08 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:51:08 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 00:59:50 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 00:59:58 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 00:59:58 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 00:59:58 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 01:02:54 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 01:03:03 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 01:03:03 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 01:03:03 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 01:05:46 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 01:05:54 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 01:05:54 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 01:05:54 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 01:09:50 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 01:09:59 - Module Name : DataBase, Message : Successfully stablished the DB connection
+
+2022-06-03 - 01:09:59 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 01:09:59 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 01:12:09 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 01:12:17 - Module Name : DataBase, Message : Successfully stablished the DB connection. Database(MongoClient(host=['cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student')
+
+2022-06-03 - 01:12:17 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 01:12:17 - Module Name : DataBase, Message : Successfull in getting the collection student_details
+2022-06-03 - 01:14:00 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-03 - 01:14:09 - Module Name : DataBase, Message : Successfully stablished the DB connection. Database(MongoClient(host=['cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017', 'cluster0-shard-00-00.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student')
+
+2022-06-03 - 01:14:09 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-03 - 01:14:09 - Module Name : DataBase, Message : Successfull in getting the collection Collection(Database(MongoClient(host=['cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017', 'cluster0-shard-00-00.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student'), 'student_details')
+2022-06-26 - 00:44:09 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-26 - 00:44:17 - Module Name : DataBase, Message : Successfully stablished the DB connection. Database(MongoClient(host=['cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student')
+
+2022-06-26 - 00:44:17 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-26 - 00:44:17 - Module Name : DataBase, Message : Successfull in getting the collection Collection(Database(MongoClient(host=['cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student'), 'student_details')
+2022-06-26 - 17:22:25 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-06-26 - 17:22:34 - Module Name : DataBase, Message : Successfully stablished the DB connection. Database(MongoClient(host=['cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student')
+
+2022-06-26 - 17:22:34 - Module Name : DataBase, Message : Getting the collection student_details
+2022-06-26 - 17:22:34 - Module Name : DataBase, Message : Successfull in getting the collection Collection(Database(MongoClient(host=['cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student'), 'student_details')
+2022-07-01 - 11:25:59 - Module Name : DataBase, Message : Starting the Proccess of DB Connection
+2022-07-01 - 11:26:08 - Module Name : DataBase, Message : Successfully stablished the DB connection. Database(MongoClient(host=['cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student')
+
+2022-07-01 - 11:26:08 - Module Name : DataBase, Message : Getting the collection student_details
+2022-07-01 - 11:26:08 - Module Name : DataBase, Message : Successfull in getting the collection Collection(Database(MongoClient(host=['cluster0-shard-00-01.foxfn.mongodb.net:27017', 'cluster0-shard-00-00.foxfn.mongodb.net:27017', 'cluster0-shard-00-02.foxfn.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-41qn22-shard-0', tls=True), 'student'), 'student_details')

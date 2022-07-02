@@ -15,7 +15,7 @@ class PreProcesing:
     def __init__(self) -> None:
         self.Logger= AppLogger()
         self.config= Config()
-        self.readCleanedDataSet()
+        #self.readCleanedDataSet()
 
     def readCleanedDataSet(self):
         file_path= Path(f"{os.getcwd()}\\DataSource\\CleanedData\\cleanedData.csv")

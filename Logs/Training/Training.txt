@@ -1,0 +1,438 @@
+2022-07-02 - 00:38:21 - Module Name : Training, Message : Reading the File D:\Sunil Personal\ML Books\Learning\Thyroid Disease Detection\Repo\Thyroid_Disease_Detection\DataSource\PreProcesedData\PreProcesedData.csv
+2022-07-02 - 00:38:21 - Module Name : Training, Message : File D:\Sunil Personal\ML Books\Learning\Thyroid Disease Detection\Repo\Thyroid_Disease_Detection\DataSource\PreProcesedData\PreProcesedData.csv reading completed
+2022-07-02 - 00:38:21 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 00:38:21 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 00:38:21 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Creating KNN Model for Cluster = 0 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 9, 'weights': 'distance'}
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Accuracy = 0.7242524916943521
+2022-07-02 - 00:38:43 - Module Name : Training, Message : F1 Score = 0.33064516129032256
+2022-07-02 - 00:38:43 - Module Name : Training, Message : FBeta Score = 0.45657015590200445
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Saving model = KNN_0
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Model = KNN_0 saved successfully
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 00:38:43 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 00:38:43 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 0 with params = {'max_depth': 10, 'n_estimators': 10}
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Accuracy = 0.840531561461794
+2022-07-02 - 00:38:55 - Module Name : Training, Message : F1 Score = 0.6821192052980133
+2022-07-02 - 00:38:55 - Module Name : Training, Message : FBeta Score = 0.774436090225564
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_0
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Model = ExtraTreesClassifier_0 saved successfully
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 00:38:55 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 00:38:55 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 00:39:09 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 0 with params = {'max_depth': 9, 'n_estimators': 100}
+2022-07-02 - 00:39:09 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:09 - Module Name : Training, Message : Accuracy = 0.9368770764119602
+2022-07-02 - 00:39:09 - Module Name : Training, Message : F1 Score = 0.8961748633879781
+2022-07-02 - 00:39:09 - Module Name : Training, Message : FBeta Score = 0.8903365906623235
+2022-07-02 - 00:39:09 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:09 - Module Name : Training, Message : Saving model = RandomForest_0
+2022-07-02 - 00:39:10 - Module Name : Training, Message : Model = RandomForest_0 saved successfully
+2022-07-02 - 00:39:10 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:39:10 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 00:39:10 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 00:39:10 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Creating KNN Model for Cluster = 1 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 4, 'weights': 'distance'}
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Accuracy = 0.832183908045977
+2022-07-02 - 00:39:25 - Module Name : Training, Message : F1 Score = 0.5228758169934641
+2022-07-02 - 00:39:25 - Module Name : Training, Message : FBeta Score = 0.6116207951070337
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Saving model = KNN_1
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Model = KNN_1 saved successfully
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 00:39:25 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 00:39:25 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 00:39:36 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 1 with params = {'max_depth': 9, 'n_estimators': 200}
+2022-07-02 - 00:39:36 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:36 - Module Name : Training, Message : Accuracy = 0.8804597701149425
+2022-07-02 - 00:39:36 - Module Name : Training, Message : F1 Score = 0.6941176470588235
+2022-07-02 - 00:39:36 - Module Name : Training, Message : FBeta Score = 0.7468354430379747
+2022-07-02 - 00:39:36 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:36 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_1
+2022-07-02 - 00:39:37 - Module Name : Training, Message : Model = ExtraTreesClassifier_1 saved successfully
+2022-07-02 - 00:39:37 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:39:37 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 00:39:37 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 00:39:37 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 1 with params = {'max_depth': 6, 'n_estimators': 100}
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Accuracy = 0.8804597701149425
+2022-07-02 - 00:39:50 - Module Name : Training, Message : F1 Score = 0.7173913043478262
+2022-07-02 - 00:39:50 - Module Name : Training, Message : FBeta Score = 0.7317073170731708
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Saving model = RandomForest_1
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Model = RandomForest_1 saved successfully
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 00:39:50 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 00:39:50 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Creating KNN Model for Cluster = 2 with params = {'algorithm': 'auto', 'leaf_size': 15, 'n_neighbors': 4, 'weights': 'distance'}
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Accuracy = 0.8059071729957806
+2022-07-02 - 00:40:15 - Module Name : Training, Message : F1 Score = 0.5337837837837838
+2022-07-02 - 00:40:15 - Module Name : Training, Message : FBeta Score = 0.5708092485549133
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Saving model = KNN_2
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Model = KNN_2 saved successfully
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 00:40:15 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 00:40:15 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 2 with params = {'max_depth': 9, 'n_estimators': 300}
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Accuracy = 0.8762306610407876
+2022-07-02 - 00:40:27 - Module Name : Training, Message : F1 Score = 0.696551724137931
+2022-07-02 - 00:40:27 - Module Name : Training, Message : FBeta Score = 0.7559880239520957
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_2
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Model = ExtraTreesClassifier_2 saved successfully
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 00:40:27 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 00:40:27 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 2 with params = {'max_depth': 10, 'n_estimators': 50}
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Accuracy = 0.8959212376933896
+2022-07-02 - 00:40:42 - Module Name : Training, Message : F1 Score = 0.7628205128205128
+2022-07-02 - 00:40:42 - Module Name : Training, Message : FBeta Score = 0.787037037037037
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Saving model = RandomForest_2
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Model = RandomForest_2 saved successfully
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 00:40:42 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 00:40:42 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Creating KNN Model for Cluster = 3 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 3, 'weights': 'uniform'}
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Accuracy = 0.8092592592592592
+2022-07-02 - 00:41:00 - Module Name : Training, Message : F1 Score = 0.40462427745664736
+2022-07-02 - 00:41:00 - Module Name : Training, Message : FBeta Score = 0.5
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Saving model = KNN_3
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Model = KNN_3 saved successfully
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 00:41:00 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 00:41:00 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 00:41:11 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 3 with params = {'max_depth': 9, 'n_estimators': 100}
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Accuracy = 0.8907407407407407
+2022-07-02 - 00:41:12 - Module Name : Training, Message : F1 Score = 0.6974358974358974
+2022-07-02 - 00:41:12 - Module Name : Training, Message : FBeta Score = 0.7762557077625571
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_3
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Model = ExtraTreesClassifier_3 saved successfully
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 00:41:12 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 00:41:12 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 3 with params = {'max_depth': 10, 'n_estimators': 200}
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Accuracy = 0.9
+2022-07-02 - 00:41:26 - Module Name : Training, Message : F1 Score = 0.7567567567567567
+2022-07-02 - 00:41:26 - Module Name : Training, Message : FBeta Score = 0.7692307692307692
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Saving model = RandomForest_3
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Model = RandomForest_3 saved successfully
+2022-07-02 - 00:41:26 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:39:35 - Module Name : Training, Message : Reading the File D:\Sunil Personal\ML Books\Learning\Thyroid Disease Detection\Repo\Thyroid_Disease_Detection\DataSource\PreProcesedData\PreProcesedData.csv
+2022-07-02 - 23:39:35 - Module Name : Training, Message : File D:\Sunil Personal\ML Books\Learning\Thyroid Disease Detection\Repo\Thyroid_Disease_Detection\DataSource\PreProcesedData\PreProcesedData.csv reading completed
+2022-07-02 - 23:39:35 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 23:39:35 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 23:39:35 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 23:39:47 - Module Name : Training, Message : Creating KNN Model for Cluster = 0 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 9, 'weights': 'distance'}
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Accuracy = 0.7242524916943521
+2022-07-02 - 23:39:48 - Module Name : Training, Message : F1 Score = 0.33064516129032256
+2022-07-02 - 23:39:48 - Module Name : Training, Message : FBeta Score = 0.45657015590200445
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Saving model = KNN_0
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Model = KNN_0 saved successfully
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 23:39:48 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 23:39:48 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 23:39:59 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 0 with params = {'max_depth': 10, 'n_estimators': 300}
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Accuracy = 0.8372093023255814
+2022-07-02 - 23:40:00 - Module Name : Training, Message : F1 Score = 0.6754966887417219
+2022-07-02 - 23:40:00 - Module Name : Training, Message : FBeta Score = 0.7669172932330828
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_0
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Model = ExtraTreesClassifier_0 saved successfully
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 23:40:00 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 23:40:00 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 23:40:14 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 0 with params = {'max_depth': 9, 'n_estimators': 50}
+2022-07-02 - 23:40:14 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:14 - Module Name : Training, Message : Accuracy = 0.9385382059800664
+2022-07-02 - 23:40:15 - Module Name : Training, Message : F1 Score = 0.899182561307902
+2022-07-02 - 23:40:15 - Module Name : Training, Message : FBeta Score = 0.8918918918918919
+2022-07-02 - 23:40:15 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:15 - Module Name : Training, Message : Saving model = RandomForest_0
+2022-07-02 - 23:40:15 - Module Name : Training, Message : Model = RandomForest_0 saved successfully
+2022-07-02 - 23:40:15 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:40:15 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 23:40:15 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 23:40:15 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 23:40:30 - Module Name : Training, Message : Creating KNN Model for Cluster = 1 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 4, 'weights': 'distance'}
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Accuracy = 0.832183908045977
+2022-07-02 - 23:40:31 - Module Name : Training, Message : F1 Score = 0.5228758169934641
+2022-07-02 - 23:40:31 - Module Name : Training, Message : FBeta Score = 0.6116207951070337
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Saving model = KNN_1
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Model = KNN_1 saved successfully
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 23:40:31 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 23:40:31 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 1 with params = {'max_depth': 9, 'n_estimators': 100}
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Accuracy = 0.8735632183908046
+2022-07-02 - 23:40:42 - Module Name : Training, Message : F1 Score = 0.6745562130177515
+2022-07-02 - 23:40:42 - Module Name : Training, Message : FBeta Score = 0.7289002557544757
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_1
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Model = ExtraTreesClassifier_1 saved successfully
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 23:40:42 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 23:40:42 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 23:40:56 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 1 with params = {'max_depth': 8, 'n_estimators': 300}
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Accuracy = 0.8827586206896552
+2022-07-02 - 23:40:57 - Module Name : Training, Message : F1 Score = 0.7272727272727273
+2022-07-02 - 23:40:57 - Module Name : Training, Message : FBeta Score = 0.7343412526997839
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Saving model = RandomForest_1
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Model = RandomForest_1 saved successfully
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 23:40:57 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 23:40:57 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 23:41:21 - Module Name : Training, Message : Creating KNN Model for Cluster = 2 with params = {'algorithm': 'auto', 'leaf_size': 15, 'n_neighbors': 4, 'weights': 'distance'}
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Accuracy = 0.8059071729957806
+2022-07-02 - 23:41:22 - Module Name : Training, Message : F1 Score = 0.5337837837837838
+2022-07-02 - 23:41:22 - Module Name : Training, Message : FBeta Score = 0.5708092485549133
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Saving model = KNN_2
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Model = KNN_2 saved successfully
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 23:41:22 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 23:41:22 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 2 with params = {'max_depth': 10, 'n_estimators': 300}
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Accuracy = 0.8790436005625879
+2022-07-02 - 23:41:34 - Module Name : Training, Message : F1 Score = 0.7074829931972789
+2022-07-02 - 23:41:34 - Module Name : Training, Message : FBeta Score = 0.7602339181286549
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_2
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Model = ExtraTreesClassifier_2 saved successfully
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 23:41:34 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 23:41:34 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 23:41:49 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 2 with params = {'max_depth': 10, 'n_estimators': 100}
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Accuracy = 0.9029535864978903
+2022-07-02 - 23:41:50 - Module Name : Training, Message : F1 Score = 0.7823343848580441
+2022-07-02 - 23:41:50 - Module Name : Training, Message : FBeta Score = 0.7989690721649484
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Saving model = RandomForest_2
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Model = RandomForest_2 saved successfully
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 23:41:50 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 23:41:50 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Creating KNN Model for Cluster = 3 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 3, 'weights': 'uniform'}
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Accuracy = 0.8092592592592592
+2022-07-02 - 23:42:10 - Module Name : Training, Message : F1 Score = 0.40462427745664736
+2022-07-02 - 23:42:10 - Module Name : Training, Message : FBeta Score = 0.5
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Saving model = KNN_3
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Model = KNN_3 saved successfully
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 23:42:10 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 23:42:10 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 3 with params = {'max_depth': 10, 'n_estimators': 100}
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Accuracy = 0.8851851851851852
+2022-07-02 - 23:42:21 - Module Name : Training, Message : F1 Score = 0.6868686868686869
+2022-07-02 - 23:42:21 - Module Name : Training, Message : FBeta Score = 0.7555555555555555
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_3
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Model = ExtraTreesClassifier_3 saved successfully
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 23:42:21 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 23:42:21 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 3 with params = {'max_depth': 10, 'n_estimators': 100}
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Accuracy = 0.9018518518518519
+2022-07-02 - 23:42:35 - Module Name : Training, Message : F1 Score = 0.7644444444444445
+2022-07-02 - 23:42:35 - Module Name : Training, Message : FBeta Score = 0.7706093189964157
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Saving model = RandomForest_3
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Model = RandomForest_3 saved successfully
+2022-07-02 - 23:42:35 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:24 - Module Name : Training, Message : Reading the File D:\Sunil Personal\ML Books\Learning\Thyroid Disease Detection\Repo\Thyroid_Disease_Detection\DataSource\PreProcesedData\PreProcesedData.csv
+2022-07-02 - 23:44:24 - Module Name : Training, Message : File D:\Sunil Personal\ML Books\Learning\Thyroid Disease Detection\Repo\Thyroid_Disease_Detection\DataSource\PreProcesedData\PreProcesedData.csv reading completed
+2022-07-02 - 23:44:24 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 23:44:24 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 23:44:24 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Creating KNN Model for Cluster = 0 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 2, 'weights': 'uniform'}
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Accuracy = 0.7059800664451827
+2022-07-02 - 23:44:32 - Module Name : Training, Message : F1 Score = 0.25316455696202533
+2022-07-02 - 23:44:32 - Module Name : Training, Message : FBeta Score = 0.37037037037037035
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Saving model = KNN_0
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Model = KNN_0 saved successfully
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 23:44:32 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 23:44:32 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 23:44:36 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 0 with params = {'max_depth': 5, 'n_estimators': 10}
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Accuracy = 0.7790697674418605
+2022-07-02 - 23:44:37 - Module Name : Training, Message : F1 Score = 0.4435146443514645
+2022-07-02 - 23:44:37 - Module Name : Training, Message : FBeta Score = 0.6416464891041163
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_0
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Model = ExtraTreesClassifier_0 saved successfully
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Creating the data for the Cluster 0
+2022-07-02 - 23:44:37 - Module Name : Training, Message : shape of the data = (2405, 24)
+2022-07-02 - 23:44:37 - Module Name : Training, Message : Sucessfully created the data for the Cluster 0
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 0 with params = {'max_depth': 5, 'n_estimators': 100}
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Accuracy = 0.915282392026578
+2022-07-02 - 23:44:42 - Module Name : Training, Message : F1 Score = 0.8595041322314049
+2022-07-02 - 23:44:42 - Module Name : Training, Message : FBeta Score = 0.8580858085808581
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Saving model = RandomForest_0
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Model = RandomForest_0 saved successfully
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 23:44:42 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 23:44:42 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Creating KNN Model for Cluster = 1 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 4, 'weights': 'distance'}
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Accuracy = 0.832183908045977
+2022-07-02 - 23:44:47 - Module Name : Training, Message : F1 Score = 0.5228758169934641
+2022-07-02 - 23:44:47 - Module Name : Training, Message : FBeta Score = 0.6116207951070337
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Saving model = KNN_1
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Model = KNN_1 saved successfully
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 23:44:47 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 23:44:47 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 1 with params = {'max_depth': 5, 'n_estimators': 200}
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Accuracy = 0.8666666666666667
+2022-07-02 - 23:44:52 - Module Name : Training, Message : F1 Score = 0.5915492957746478
+2022-07-02 - 23:44:52 - Module Name : Training, Message : FBeta Score = 0.7420494699646643
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_1
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Model = ExtraTreesClassifier_1 saved successfully
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Creating the data for the Cluster 1
+2022-07-02 - 23:44:52 - Module Name : Training, Message : shape of the data = (1737, 24)
+2022-07-02 - 23:44:52 - Module Name : Training, Message : Sucessfully created the data for the Cluster 1
+2022-07-02 - 23:44:57 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 1 with params = {'max_depth': 5, 'n_estimators': 200}
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Accuracy = 0.8804597701149425
+2022-07-02 - 23:44:58 - Module Name : Training, Message : F1 Score = 0.7142857142857142
+2022-07-02 - 23:44:58 - Module Name : Training, Message : FBeta Score = 0.7336343115124154
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Saving model = RandomForest_1
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Model = RandomForest_1 saved successfully
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 23:44:58 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 23:44:58 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Creating KNN Model for Cluster = 2 with params = {'algorithm': 'auto', 'leaf_size': 15, 'n_neighbors': 4, 'weights': 'distance'}
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Accuracy = 0.8059071729957806
+2022-07-02 - 23:45:05 - Module Name : Training, Message : F1 Score = 0.5337837837837838
+2022-07-02 - 23:45:05 - Module Name : Training, Message : FBeta Score = 0.5708092485549133
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Saving model = KNN_2
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Model = KNN_2 saved successfully
+2022-07-02 - 23:45:05 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:45:06 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 23:45:06 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 23:45:06 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 23:45:10 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 2 with params = {'max_depth': 5, 'n_estimators': 200}
+2022-07-02 - 23:45:10 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:10 - Module Name : Training, Message : Accuracy = 0.8621659634317862
+2022-07-02 - 23:45:10 - Module Name : Training, Message : F1 Score = 0.6171875
+2022-07-02 - 23:45:10 - Module Name : Training, Message : FBeta Score = 0.7424812030075187
+2022-07-02 - 23:45:10 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:11 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_2
+2022-07-02 - 23:45:11 - Module Name : Training, Message : Model = ExtraTreesClassifier_2 saved successfully
+2022-07-02 - 23:45:11 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:45:11 - Module Name : Training, Message : Creating the data for the Cluster 2
+2022-07-02 - 23:45:11 - Module Name : Training, Message : shape of the data = (2841, 24)
+2022-07-02 - 23:45:11 - Module Name : Training, Message : Sucessfully created the data for the Cluster 2
+2022-07-02 - 23:45:16 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 2 with params = {'max_depth': 5, 'n_estimators': 50}
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Accuracy = 0.890295358649789
+2022-07-02 - 23:45:17 - Module Name : Training, Message : F1 Score = 0.738255033557047
+2022-07-02 - 23:45:17 - Module Name : Training, Message : FBeta Score = 0.7857142857142858
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Saving model = RandomForest_2
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Model = RandomForest_2 saved successfully
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 23:45:17 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 23:45:17 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 23:45:22 - Module Name : Training, Message : Creating KNN Model for Cluster = 3 with params = {'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 3, 'weights': 'uniform'}
+2022-07-02 - 23:45:22 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:22 - Module Name : Training, Message : Accuracy = 0.8092592592592592
+2022-07-02 - 23:45:22 - Module Name : Training, Message : F1 Score = 0.40462427745664736
+2022-07-02 - 23:45:23 - Module Name : Training, Message : FBeta Score = 0.5
+2022-07-02 - 23:45:23 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:23 - Module Name : Training, Message : Saving model = KNN_3
+2022-07-02 - 23:45:23 - Module Name : Training, Message : Model = KNN_3 saved successfully
+2022-07-02 - 23:45:23 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:45:23 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 23:45:23 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 23:45:23 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Creating Extra Tree Classifier for Cluster = 3 with params = {'max_depth': 5, 'n_estimators': 50}
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Accuracy = 0.8611111111111112
+2022-07-02 - 23:45:27 - Module Name : Training, Message : F1 Score = 0.5398773006134969
+2022-07-02 - 23:45:27 - Module Name : Training, Message : FBeta Score = 0.7096774193548386
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Saving model = ExtraTreesClassifier_3
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Model = ExtraTreesClassifier_3 saved successfully
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Model Creating Success !!!!!
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Creating the data for the Cluster 3
+2022-07-02 - 23:45:27 - Module Name : Training, Message : shape of the data = (2159, 24)
+2022-07-02 - 23:45:27 - Module Name : Training, Message : Sucessfully created the data for the Cluster 3
+2022-07-02 - 23:45:32 - Module Name : Training, Message : Creating Random Forest Model for Cluster = 3 with params = {'max_depth': 5, 'n_estimators': 100}
+2022-07-02 - 23:45:33 - Module Name : Training, Message : Calculating Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:33 - Module Name : Training, Message : Accuracy = 0.8944444444444445
+2022-07-02 - 23:45:33 - Module Name : Training, Message : F1 Score = 0.7192118226600985
+2022-07-02 - 23:45:33 - Module Name : Training, Message : FBeta Score = 0.776595744680851
+2022-07-02 - 23:45:33 - Module Name : Training, Message : Successfully calculated Accuracy, F1 Score and FBeta Score
+2022-07-02 - 23:45:33 - Module Name : Training, Message : Saving model = RandomForest_3
+2022-07-02 - 23:45:33 - Module Name : Training, Message : Model = RandomForest_3 saved successfully
+2022-07-02 - 23:45:33 - Module Name : Training, Message : Model Creating Success !!!!!

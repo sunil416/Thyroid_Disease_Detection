@@ -81,7 +81,7 @@ class Training:
             X_train, X_test, y_train, y_test = self.CreateDataForCluster(cluster)
             params={
                 'n_estimators':[100,200,300,10,50],
-                'max_depth':[3,4,5,6,7,8,9,10]
+                'max_depth':[3,4,5]
             }
 
             best_params= self.getBestParamters(RandomForestClassifier(), params,  X_train, y_train)
@@ -100,7 +100,7 @@ class Training:
         try:
             X_train, X_test, y_train, y_test = self.CreateDataForCluster(cluster)
             params={
-                'n_neighbors':[2,3,4,5,6,7,8,9,10],
+                'n_neighbors':[2,3,4],
                 'weights':['uniform','distance'],
                 'algorithm':['auto', 'ball_tree', 'kd_tree', 'brute'],
                 'leaf_size':[5,10,15,20,25,30,35,40]
@@ -124,7 +124,7 @@ class Training:
             X_train, X_test, y_train, y_test = self.CreateDataForCluster(cluster)
             params={
                 'n_estimators':[100,200,300,10,50],
-                'max_depth':[3,4,5,6,7,8,9,10]
+                'max_depth':[3,4,5]
             }
 
             best_params= self.getBestParamters(ExtraTreesClassifier(), params,  X_train, y_train)

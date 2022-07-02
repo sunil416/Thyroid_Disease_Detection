@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
-from flask import Flask
+from flask import Flask, request, Response
+from sklearn.metrics import precision_recall_curve
 
 from App_Logger.AppLogger import AppLogger
 from Configuration.config import Config
@@ -8,8 +9,10 @@ from DBConnector.DBConnector import MongoDbClient
 from DataClear.DataCleaner import DataCleaner
 from Modules.Modules import ModuleName
 from flask_debugtoolbar import DebugToolbarExtension
+import pandas as pd
 
 from PreProcesing.preprocessing import PreProcesing
+from Predict.Prediction import Prediction
 from Training.training import Training
 
 
@@ -116,6 +119,47 @@ def trainning():
     training.createModelForRandomForest(3)
 
     return "Models Created Successfully"
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    #print(request.form['user'])
+    predict=Prediction()
+    li=[]
+    #di={}
+    #da=pd.DataFrame(request.form.items())
+    #print(da.head())
+    
+    test_data_frame=pd.read_csv("D:\\Sunil Personal\\ML Books\\Learning\\Thyroid Disease Detection\\DataSource\\allrep.test.csv")
+    original_out=test_data_frame['Output']
+    test_data_frame.drop('Output', axis=1, inplace=True)
+    for i in range(0,test_data_frame.shape[0]):
+        di ={}
+        for col_name in test_data_frame.columns:
+            di.update({col_name:test_data_frame[col_name].iloc[i]})
+        print(di)
+        predict.createDummyDataFrame()
+        predict.addDataToDataFrame(di)
+
+        predict.cleanTheData()
+        predict.preProcessTheData()
+        li.append(predict.getPredictedValue(predict.getCluster()))
+    test_data_frame["output"]= original_out
+    test_data_frame['Yhat']=li
+
+    test_data_frame.to_csv("D:\\Sunil Personal\\ML Books\\Learning\\Thyroid Disease Detection\\DataSource\\allrep.test_Predicted.csv")
+    # for items in request.form.items():
+    #      di.update({items[0]:items[1]})
+    # predict.createDummyDataFrame()
+    # predict.addDataToDataFrame(di)
+
+    # predict.cleanTheData()
+    # predict.preProcessTheData()
+    #output=predict.getPredictedValue(predict.getCluster())
+    #return f"Your Thyroid Status = {output}"
+
+    return "Sucess"
+
+
 
 
 if __name__ == "__main__":
